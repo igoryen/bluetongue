@@ -1,0 +1,389 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>b</title>
+        <link rel="stylesheet" href="css/b.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/a.js"></script>
+    </head>
+    <body>
+        
+        <!-- EMRE -->
+        <header>
+            <nav id='cssmenu'>
+
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/nas_icon.png" alt="">
+                        <!-- <span>Responsive</span> -->
+                    </a>
+                </div>
+                <div id="head-mobile"></div>
+                <div class="button"></div>
+
+                <ul>
+                    <li>                        
+                        <a href='#'>
+                            <img src="img/dashboard_icon.png" alt="">
+                            <span>DASHBOARD</span>
+                        </a>
+                    </li>
+                    <li class='active'>
+                        <a href='#'>
+                            <img src="img/request_service_icon.png" alt="">
+                            <span>REQUEST SERVICE</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="img/search_filter_icon.png" alt="">
+                            <span>SEARCH FILTER</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="img/portal_security_icon.png" alt="">
+                            <span>PORTAL SECURITY</span>
+                        </a>
+                        <ul>
+                            <li><a href="#">Change password</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src="img/appraisal_portal_icon.png" alt="">
+                            <span>MY APPRAISAL PORTAL</span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">MP request form</a>
+                                <ul>
+                                    <li><a href='#'>request form A</a></li>
+                                    <li><a href='#'>request form B</a></li>
+                                </ul>
+                                
+                            </li>
+                            <li>
+                                <a href="#">MP search filter</a>
+                                <ul>
+                                    <li><a href='#'>search filter A</a></li>
+                                    <li><a href='#'>search filter B</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">MP financial filter</a></li>
+                            <li><a href="#">MP my forms</a></li>
+
+                        </ul>
+                    </li>
+
+
+                    <!-- <li><a href='#'>PORTAL SECURITY</a>
+                        <ul>
+                            <li><a href='#'>Product 1</a>
+                                <ul>
+                                    <li><a href='#'>Sub Product</a></li>
+                                    <li><a href='#'>Sub Product</a></li>
+                                </ul>
+                            </li>
+                            <li><a href='#'>Product 2</a>
+                                <ul>
+                                    <li><a href='#'>Sub Product</a></li>
+                                    <li><a href='#'>Sub Product</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <!-- <li><a href='#'>BIO</a></li>
+                    <li><a href='#'>VIDEO</a></li>
+                    <li><a href='#'>GALLERY</a></li>
+                    <li><a href='#'>CONTACT</a></li> -->
+                </ul>
+            </nav>
+        </header>
+
+        <!-- <section style='padding-top:20px;font:bold 20px arial;color:#68D800;'>
+            Responsive CSS3 Menu <br />Dropdown + Submenus <br />
+            Width Toggle Animation
+        </section> -->
+        <!-- end of EMRE -->
+
+
+        <div id="site-wrapper">
+            <div id="top_nav_bar">
+                <div id="nas_search">
+                    <input type="search">
+                    <input type="submit" value="">
+                </div>
+                <div id="lang_switch">Francais</div>
+                <div id="log_in_out">Log out</div>
+
+            </div>
+
+            <div id="site-canvas">
+
+                
+
+                <div id="right_column">
+
+                    <div id="page_top">
+
+                        <!-- <div id="t_sandwich">
+                            <a href="#" class="toggle-nav" id="big-sexy">
+                                <span><img src="img/hamburger_menu.png" width="30px"></span>
+                                <span class="menu">Menu</span>
+                            </a>
+                        </div> -->
+                        
+                        <div id="header">
+                            <h1>Valuation request form</h1>
+                            <!-- <h3>*Required information</h3> -->
+                        
+                        </div>
+                    </div>
+
+                    <div id="container">
+                        <div id="t_mandatory_note"><span class="mandatory">*</span> indicates required information</div>
+                        <div class="part">
+
+                            <div id="lender">
+                                <h2>Lender</h2>
+                                <select name="" id="lender_list">
+                                    <option>Select a lender from list</option>
+                                    <option>Lender 1</option>
+                                    <option>Lender 2</option>       
+                                    <option>Lender 3</option>                       
+                                    <option>Lender 4</option>                       
+                                    <option>Lender 5</option>                       
+
+                                </select>
+                            </div>
+
+                            <div id="property_address">
+                                <h2>property information</h2>
+                                <div class="inputs">
+
+                                    <div class="flex-row" id="zip_and_city">
+
+                                        <div class="input-text" id="t_postal_code">
+                                            <label for="postal_code">Postal code<span class="mandatory">*</span></label>
+                                            <input id="postal_code" type="text">
+                                        </div>
+
+                                        <div class="input-text" id="city_name">
+                                            <label for="city">City<span class="mandatory">*</span></label>
+                                            <input id="city" type="text">
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div class="flex-row">
+                                        <div class="input-text">
+                                            <label for="province">Province<span class="mandatory">*</span></label>
+                                            <input id="province" type="text">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="flex-row">
+                                        <div class="input-text" id="t_street_number">
+                                            <label for="street_num">Street #<span class="mandatory">*</span></label>
+                                            <input id="street_num" type="text">
+                                        </div>
+                                        
+                                        <div class="input-text" id="street_name">
+                                            <label for="street_name">Street name<span class="mandatory">*</span></label>
+                                            <input id="street_name" type="text">    
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                    <div class="flex-row" id="t_address_shorts">
+                                        <div class="input-text" id="t_street_type">
+                                            <label for="street_typ">Street type </label>
+                                            <input id="street_typ" type="text">
+                                        </div>
+                                        
+                                        <div class="input-text" id="t_street_direction">
+                                            <label for="street_dir">Street direction</label>
+                                            <input id="street_dir" type="text">
+                                        </div>
+                                        
+                                        <div class="input-text" id="t_unit_number">
+                                            <label for="unit_num">Unit #</label>
+                                            <input id="unit_num" type="text">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="part">
+                            <div id="select_service">
+                                <h2>Select a service</h2>
+                                <select name="" id="lender_list">
+                                    <option>Select a lender from list</option>
+                                    <option>Full Service</option>
+                                    <option>Drive by</option>                       
+
+                                </select>
+                            </div>
+
+                            <div id="service_type_options">
+                                <h2>service type options</h2>
+                                <div class="flex-row tooltipped" rel="tooltip" title="The tooltip or infotip or a hint is a common graphical user interface element. It is used in conjunction with a cursor, usually a pointer. The user hovers the pointer over an item, without clicking it, and a tooltip may appear—a small hover box with information about the item being hovered over. Tooltips do not usually appear on mobile operating systems, because there is no cursor (though tooltips may be displayed when using a mouse).">
+                                    <span class="question" >Include market rent in appraisal?</span>
+
+                                    <section title=".slideThree">
+                                        <!-- .slideThree -->
+                                        <div id="input" class="slideThree">  
+                                            <input type="checkbox" value="None" id="slideThree" name="check" checked />
+                                            <label for="slideThree"></label>
+                                        </div>
+                                        <!-- end .slideThree -->
+                                    </section>
+                                    <span class="tooltip"></span>
+                                </div>
+                                
+
+
+                            </div>
+
+                            <div id="payment_type">
+                                <form action="/">
+                                    <div class="" id="t_pay_1">
+                                        <input id="creditcard" type="radio"  name="payment" value="cr">
+                                        <label for="creditcard">Please bill my Credit Card / <strong>INTERAC®</strong> Online.</label>
+                                    </div>
+                                    
+                                    <div class="" id="t_pay_2">
+                                    
+                                        <input id="applicant" type="radio"  name="payment" value="app">
+                                        <label for="applicant">Applicant to pay by Credit Card or <strong>INTERAC®</strong> Online payment.</label>
+                                    </div>
+                                    
+                                    <!-- <input type="radio" name="gender" value="male"> Male<br>
+                                    <input type="radio" name="gender" value="female"> Female<br>
+                                    <input type="radio" name="gender" value="other"> Other -->
+                                    
+                                </form>
+
+                                <div id="applicant_block" class="tooltipped" rel="tooltip" title="This is another example of using a tooltip.">
+                                    <span class="question">Please provide applicant information to obtain payment</span>
+                                    <div class="input-text">
+                                        <label for="applicant_name">Email address</label>
+                                        <input type="email" id="applicant_email">
+                                    </div>
+                                    <span class="tooltip"></span>
+                                </div>
+
+                                
+
+                                <!-- <ul id="t_option_items">
+                                    <li class="option-item">
+                                        <div class="option">
+                                            <div class="option-label">
+                                                <input type="radio">Option 1
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul> -->
+                                    
+                                
+                                
+                                
+                            </div>
+
+                            
+                        </div>
+
+
+                        <div class="part">
+
+                            <div id="loan_type">
+                                <h2>Loan type</h2>
+
+                                <div class="input-text">
+                                    <label for="lender_email">Lender email<span class="mandatory">*</span></label>
+                                    <input type="email" id="lender_email">
+                                </div>
+                                
+                                <!-- <div class="input-text">
+                                    <label for="beacon">Beacon</label>
+                                    <input type="text" id="beacon">
+                                </div> -->
+
+                                <div class="input-text" id="t_value">                       
+                                    <label for="value">Value</label>
+                                    <input type="text" id="value">
+                                    <span class="unit">$</span>
+                                </div>
+
+                                <div class="input-text" id="t_mortgage_amount">                     
+                                    <label for="mortg">Mortgage amount</label>
+                                    <input type="text" id="mortg">
+                                    <span class="unit">$</span>
+                                </div>
+
+                                <div class="input-text">                        
+                                    <label for="client_ref">Client reference<span class="mandatory">*</span></label>
+                                    <input type="text" id="client_ref">
+                                </div>
+
+                                <div class="input-text">                        
+                                    <label for="branch_num">Branch number</label>
+                                    <input type="text" id="branch_num">
+                                </div>
+
+                                <div class="input-text">                        
+                                    <label for="applicant_name">Applicant name<span class="mandatory">*</span></label>
+                                    <input type="text" id="applicant_name">
+                                </div>
+                            </div>
+
+
+                            
+                        </div>
+                        <div class="part">
+                        <div id="special_directions">
+                            <h2>Special directions</h2>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <div class="question">Maximum characters: 500. You have ... characters left.</div>
+                        </div>
+                            
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <div id="cta">
+                    <div>Submit appraisal request</div>
+                </div>
+            </div>
+
+            
+
+
+        </div>
+        
+
+        <!-- <div id="palette">
+            <div class="color" id="c1">$color-1 #333333</div>
+            <div class="color" id="c2">$color-2 #094a77 ($nas-color-blue)</div>
+            <div class="color" id="c3">$color-3 #59b3f3 ($form-section-color)</div>
+            <div class="color" id="c4">$color-4 #0e75be ($nas-color-blue-light)</div>
+            <div class="color" id="c5">$color-5 white</div>
+            <div class="color" id="c6">$color-6 #f2f2f2</div>
+            <div class="color" id="c7">$color-7 #0c66a6</div>
+            <div class="color" id="c8">$color-8 #f1f8fe</div>
+            <div class="color" id="c9">$color-9 #041d2f</div>
+            <div class="color" id="c10">$color-10 #f1f8fe</div>
+            <div class="color" id="c11">$color-11 #cccccc</div>
+            <div class="color" id="c12">$color-12 #cce0ff</div>
+            <div class="color" id="c13">$color-13 #b3d1ff</div>
+        </div> -->
+
+    </body>
+</html>
